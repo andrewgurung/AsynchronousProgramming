@@ -46,6 +46,10 @@ console.log( symbols ); // ["XFX", "TNZ", "JXJ"]
 function getStockSymbols(stocks) {
     var symbols = [];
 
+    // 1. Array's forEach method
+    // 2. Closure:  function(stock){..}
+    // 3. Iterate through each item in the `stocks` array
+    //    and pass it as argument to closure function
     stocks.forEach(function(stock) {
       symbols.push( stock.symbol );
     });
