@@ -33,7 +33,7 @@ Array.prototype.filter = function(predicate){
 
 function getStockOver(stocks, minPrice) {
   var results = [];
-  stocks.filter(function(stock){
+  stocks.filter(function(stock) {
     if(stock.price >= minPrice)
       results.push( stock );
   });

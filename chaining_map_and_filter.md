@@ -15,15 +15,15 @@ var stocks = [
 ];
 
 var filteredStockSymbols = stocks.
-                              filter(function(stock){
+                              filter(function(stock) {
                                 return stock.price >= 150.00;
                               }).
-                              map(function(stock){
+                              map(function(stock) {
                                 return stock.symbol;
                               });
 // Print using forEach(..) method
-filteredStockSymbols.forEach(function(stock){
-  console.log(stock);
+filteredStockSymbols.forEach(function(stock) {
+  console.log( stock );
 });
 
 //----------------
