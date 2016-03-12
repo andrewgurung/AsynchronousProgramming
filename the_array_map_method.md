@@ -3,7 +3,7 @@
 What does a map method do?
 - Iterates through an array's content
 - Applies a function to each item
-- Create a new array containing the result
+- Create a **new** array containing the result
 
 Notes
 - Array provides an in built map method
